@@ -1,0 +1,30 @@
+
+
+#RegistrationForm {
+    width: 800px;
+    text-align: left;
+    margin: 70px;
+    margin-right:450px;
+}
+
+form input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+form textarea {
+    width: 600px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+}
+
+.button:focus, .button:hover {
+    background-color: #b80f0a;
+    color: white;
+}

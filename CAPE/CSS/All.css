@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "lucida fax";
+}
+
+#vue-app, #vue-app-demo, #RegistrationForm {
+    width: 100%;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#accessibilitylink {
+    position: absolute;
+    opacity: 0;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    background-color: #b80f0a;
+    float: left;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 180px;
+    margin-top: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover, nav li a:focus {
+    color: #b80f0a;
+    background-color: white;
+    border: 15px solid white;
+}
+
+#capelogo {
+    position: absolute;
+    width: 150px;
+    margin-left: -700px;
+}
+
+
+footer {
+    width: 100%;
+    height: 85px;
+    background-color: #b80f0a;
+    color: white;
+    margin-top: 90px;
+}
+
+footer p {
+    padding-top: 30px;
+    margin-right: 900px;
+}
+
+
+
+
+.content_left {
+    text-align: left;
+    margin-left: 150px;
+    padding-top: 120px;
+}
+
+/* Sign Up */
+.button {
+    width: 100px;
+    height: 30px;
+}
+
+.button:focus, .button:hover {
+    background-color: #b80f0a;
+    color: white;
+}
+
+#strawberryimg, #strawberryp {
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+#strawberryimg {
+    width: 400px;
+}
+
+#strawberryp {
+    width: 300px;
+    
+}

@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "lucida fax";
+}
+header img {
+    width: 100%;
+    height: 50%;
+}
+
+#upcomingfestival p {
+    width: 400px;
+    text-align: left;
+    text-indent: 40px;
+}
+#upcomingfestival img {
+    display: inline-block;
+    margin: 0 50px;
+    width: 450px;
+}
+
+#upcomingfestival span {
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+    bottom: 50px;
+}
+
+
+#trending-products {
+    margin-top: 90px;
+}
+
+#trending-products span {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 80px;
+}
+
+#trending-products h2 {
+    font-size: 24px;
+}
+
+#trending-products button {
+    font-size: 18px;;
+    background-color: #b80f0a;
+    color: white;
+    width: 140px;
+    height: 50px;
+}
+
+#filipinotest input {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #b80f0a;
+    border-radius: 50px;
+}

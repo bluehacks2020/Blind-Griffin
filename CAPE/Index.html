@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Home</title>
+        <link rel="stylesheet" href="CSS/All.css">
+        <link rel="stylesheet" href="CSS/Index.css">
+
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+
+    <body>
+        <center>
+        <div id="vue-app">
+            
+
+            <!-- <a href="#maincontent" id="accessibilitylink">Skip to main content</a> -->
+            
+            <nav>
+                <a href="Index.html"> <img src="images/Cape Logo.png" alt="CAPE Logo" id="capelogo"> </a>    
+                <ul>
+                    <li><a accesskey="h" href="Index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Get Involved.html">Get Involved</a></li>
+                    <li><a accesskey="s" href="Shop.html">Shop</a></li>
+                    <li><a accesskey="c" href="My Cart.html">My Cart</a></li>
+                    <li><a href="Log In.html">Log In</a></li>
+                    <li><a href="Sign Up.html">Sign Up</a></li>
+                </ul>
+            </nav>
+
+            <header>
+                <img src="images/Header with effects.jpg" alt=" ">
+            </header>
+
+            <main>
+                
+
+               <div id="upcomingfestival">
+                <h1 id="maincontent">Upcoming Festival!</h1>
+                
+                <span> 
+                <h2>Panagbenga Festival</h2>
+                <p>
+                    Panagbenga Festival is a month-long annual flower occasion which means "season of blooming" occurring in Baguio City. It held every February and was created as a tribute to the city's flowers and as a way to rise up from the devastation of the 1990 Luzon earthquake.
+                </p> 
+                <p>
+                    Below are the highly recommended products that were proudly made by our own Filipinos from Baguio City.
+                </p>
+            </span> 
+                <img src="images/panagbenga/Panagbenga.jpg" alt="Panagbenga Festival">
+               </div>
+
+               <div id="trending-products">
+                    <h1>Trending Products</h2>
+
+                   <div id="trending-products-center">
+                    <span>
+                        <img src="Images/Panagbenga/Strawberry Jam.png" alt="Strawberry Jam of Baguio City">
+                        <h2>Strawberry Jam</h2>
+                       </span>
+    
+                       <span>
+                        <img src="Images/ubejam.png" alt=" ">
+                        <h2> Ube Jam </h2>
+                       </span>
+
+                       <span>
+                            <img src="images/panagbenga/Walis Tampo.png" alt=" ">
+                           <h2> Product Name </h2>
+                       </span>
+
+                    <template v-if="viewmoreproduct==0">
+                        <button @click="viewmoreproductTrending">
+                            View More
+                        </button>>
+                    </template>
+
+                    <template v-if="viewmoreproduct==1">
+                        <span>
+                            <img src="images/suka.jpg" alt=" ">
+                           <h2> Sukang Iloko </h2>
+                        </span>
+
+                        <span>
+                            <img src="images/otap.jpg" alt=" ">
+                            <h2> Otap </h2>
+                        </span>
+
+                        <span>
+                        <img src="images/pot.jpg" alt=" ">
+                        <h2> Pot </h2>
+                    </span>
+                    </template>   
+
+                   </div>
+
+                   <div id="otherproduct">
+                       <h1>Other Products</h1>>
+
+                       <span>
+                        <img src="images/strawberyy shortcake.png" alt=" ">
+                       <h2> Strawberry Shortcake </h2>
+                    </span>
+
+                    <span>
+                        <img src="images/pamaypay.png" alt=" ">
+                       <h2> Sukang Iloko </h2>
+                    </span>
+
+                    <span>
+                        <img src="images/peanutbrittle.png" alt=" ">
+                       <h2> Pot </h2>
+                    </span>
+                   </div>
+
+                   <div id="filipinotest">
+                       <h1>Take this Filipino Test</h1>
+                       <input type="email" placeholder="Enter email address">
+                   </div>
+
+                  
+               </div>
+                
+            </main>
+
+            <footer>
+                <p>
+                    © 2020 - Designed by Team Blind Griffin
+                </p>
+            </footer>
+            
+
+        </div>
+    </center>
+
+    <script src="Vue/Index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+.content_shop h1 {
+    margin-top: 120px;
+}
+
+.shop_filter select, .shop_filter option {
+    text-align: center;
+    width: 100px;
+    height: 30px;
+}
+
+.shop_filter input {
+    width: 300px;
+    height: 30px;
+    margin-left: 140px;
+}
+
+.shop_product {
+    width: 95%;
+    border: 2px solid #b80f0a;
+    margin-top: 10px;
+}
+
+.shop_row1 {
+    margin-top: 30px;
+}
+
+.shop_row1 span {
+    margin: 0 25px;
+    display: inline-block;
+}
+
+.shop_row1 img {
+    margin-bottom: 5px;
+}
+
+.shop_row1 h2 {
+    font-size: 26px;;
+    font-weight: bold;
+}
+
+.shop_row1 p {
+    font-size: 28px;
+}
